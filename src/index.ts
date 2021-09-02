@@ -14,13 +14,11 @@ export default (_context: LoadContext) => {
     name: 'docusaurus-plugin-relative-paths',
     async postBuild({ outDir }: Props) {
       const filePaths = await recursiveReaddir(outDir, [isNotWebsiteTextualFile]);
-      await Promise.all(
-        filePaths.map(async filePath => {
-          const content = fs.readFileSync(filePath);
-          const relativePath = path.relative(outDir, filePath);
-          fs.writeFileSync(filePath, convertAbsolutePathsToRelative(String(content), relativePath));
-        })
-      );
+      filePaths.map(async filePath => {
+        const content = fs.readFileSync(filePath);
+        const relativePath = path.relative(outDir, filePath);
+        fs.writeFileSync(filePath, convertAbsolutePathsToRelative(String(content), relativePath));
+      });
       console.log(`${chalk.green('Success!')} Converted absolute paths to relative.`);
     },
   };
