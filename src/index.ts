@@ -1,5 +1,5 @@
+import fs from 'fs';
 import path from 'path';
-import fs from 'fs-extra';
 import recursiveReaddir from 'recursive-readdir';
 import { LoadContext, Props } from '@docusaurus/types';
 import { convertAbsolutePathsToRelative } from './utils/convertPath';
@@ -15,9 +15,9 @@ export default (_context: LoadContext, _options: any) => {
       const filePaths = await recursiveReaddir(outDir, [isNotWebsiteTextualFile]);
       await Promise.all(
         filePaths.map(async filePath => {
-          const content = await fs.readFile(filePath);
+          const content = fs.readFileSync(filePath);
           const relativePath = path.relative(outDir, filePath);
-          await fs.writeFile(filePath, convertAbsolutePathsToRelative(String(content), relativePath));
+          fs.writeFileSync(filePath, convertAbsolutePathsToRelative(String(content), relativePath));
         })
       );
       console.log('Success!: Converted absolute paths to relative.')
