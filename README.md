@@ -32,7 +32,7 @@ yarn add @ohkimur/docusaurus-plugin-relative-path
 
 ## Usage
 
-In `docusaurus.config.js`, add the folling code:
+In `docusaurus.config.js`, add the following code:
 
 ```js
 module.exports = {
