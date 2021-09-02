@@ -1,15 +1,15 @@
 {
   "name": "@ohkimur/docusaurus-plugin-relative-path",
   "version": "0.0.0-development",
-  "description": "Convert build absolute paths to relative paths.",
+  "description": "Docusaurus plugin to convert absolute paths from build to relative paths.",
   "keywords": [
-    "plugin",
-    "relative-path",
     "docusaurus",
-    "absolute-path",
     "docusaurus2",
+    "docusaurus-v2",
     "docusaurus-plugin",
-    "docusaurus-v2"
+    "absolute-path",
+    "relative-path",
+    "plugin"
   ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -33,7 +33,9 @@
   },
   "author": "Daniel Costrasel (ohkimur)",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "@docusaurus/types": "^2.0.0-beta.5"
+  },
   "devDependencies": {
     "rimraf": "^3.0.2",
     "semantic-release": "^17.4.7",
