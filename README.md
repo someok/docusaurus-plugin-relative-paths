@@ -1,5 +1,5 @@
 <h1 align="center">🦖 Ducusaurus Plugin Relative Paths</h1>
-<h3 align="center">Convert absolute paths from build to relative paths.</h3>
+<h3 align="center">Convert absolute paths to relative paths. Make the build files accessible from anywhere without a server.</h3>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/docusaurus-plugin-relative-paths">
