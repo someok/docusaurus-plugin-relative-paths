@@ -1,5 +1,5 @@
 {
-  "name": "@ohkimur/docusaurus-plugin-relative-path",
+  "name": "docusaurus-plugin-relative-path",
   "version": "0.0.0-development",
   "description": "Docusaurus plugin to convert absolute paths from build to relative paths.",
   "keywords": [

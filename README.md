@@ -2,8 +2,8 @@
 <h3 align="center">Convert absolute paths from build to relative paths.</h3>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@ohkimur/docusaurus-plugin-relative-path">
-    <img alt="npm" src="https://img.shields.io/npm/v/@ohkimur/docusaurus-plugin-relative-path">
+  <a href="https://www.npmjs.com/package/docusaurus-plugin-relative-path">
+    <img alt="npm" src="https://img.shields.io/npm/v/docusaurus-plugin-relative-path">
   </a>
   <a href="https://github.com/ohkimur/docusaurus-plugin-relative-path/actions/workflows/ci.yml">
     <img alt="CI" src="https://github.com/ohkimur/docusaurus-plugin-relative-path/actions/workflows/ci.yml/badge.svg">
@@ -21,13 +21,13 @@
 If using **npm**, run the following commnad:
 
 ```sh
-npm i @ohkimur/docusaurus-plugin-relative-path
+npm i docusaurus-plugin-relative-path
 ```
 
 If using **yarn**, run the following commnad:
 
 ```sh
-yarn add @ohkimur/docusaurus-plugin-relative-path
+yarn add docusaurus-plugin-relative-path
 ```
 
 ## Usage
@@ -37,5 +37,5 @@ In `docusaurus.config.js`, add the following code:
 ```js
 module.exports = {
   // ...
-  plugins: ['@ohkimur/docusaurus-plugin-relative-path'],
+  plugins: ['docusaurus-plugin-relative-path'],
 };
