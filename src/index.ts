@@ -6,7 +6,7 @@ import { LoadContext, Props } from '@docusaurus/types';
 import { convertAbsolutePathsToRelative } from './utils/convertPath';
 
 const websiteTextualFileExtensions = ['.css', '.js', '.html', '.xml'];
-const isNotWebsiteTextualFile = (filePath: string, stats: any) =>
+const isNotWebsiteTextualFile = (filePath: string, stats: fs.Stats) =>
   !(stats.isDirectory() || websiteTextualFileExtensions.includes(path.extname(filePath)));
 
 export default (_context: LoadContext, _options: any) => {
