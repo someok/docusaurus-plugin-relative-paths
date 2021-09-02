@@ -1,5 +1,5 @@
 {
-  "name": "docusaurus-plugin-relative-path",
+  "name": "docusaurus-plugin-relative-paths",
   "version": "0.0.0-development",
   "description": "Docusaurus plugin to convert absolute paths from build to relative paths.",
   "keywords": [
@@ -48,10 +48,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ohkimur/docusaurus-plugin-relative-path.git"
+    "url": "git+https://github.com/ohkimur/docusaurus-plugin-relative-paths.git"
   },
   "bugs": {
-    "url": "https://github.com/ohkimur/docusaurus-plugin-relative-path/issues"
+    "url": "https://github.com/ohkimur/docusaurus-plugin-relative-paths/issues"
   },
-  "homepage": "https://github.com/ohkimur/docusaurus-plugin-relative-path#readme"
+  "homepage": "https://github.com/ohkimur/docusaurus-plugin-relative-paths#readme"
 }
