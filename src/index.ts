@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import chalk from 'chalk';
 import recursiveReaddir from 'recursive-readdir';
 import { LoadContext, Props } from '@docusaurus/types';
 import { convertAbsolutePathsToRelative } from './utils/convertPath';
@@ -20,7 +21,7 @@ export default (_context: LoadContext, _options: any) => {
           fs.writeFileSync(filePath, convertAbsolutePathsToRelative(String(content), relativePath));
         })
       );
-      console.log('Success!: Converted absolute paths to relative.')
+      console.log(`${chalk.green('Success!')} Converted absolute paths to relative.`);
     },
   };
 }
