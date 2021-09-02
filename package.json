@@ -1,0 +1,47 @@
+{
+  "name": "@ohkimur/docusaurus-plugin-relative-path",
+  "version": "0.0.0-development",
+  "description": "Convert build absolute paths to relative paths.",
+  "keywords": [
+    "plugin",
+    "relative-path",
+    "docusaurus",
+    "absolute-path",
+    "docusaurus2",
+    "docusaurus-plugin",
+    "docusaurus-v2"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "prebuild": "yarn clean",
+    "build": "tsc",
+    "semantic-release": "semantic-release",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "author": "Daniel Costrasel (ohkimur)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "semantic-release": "^17.4.7",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ohkimur/docusaurus-plugin-relative-path.git"
+  }
+}
