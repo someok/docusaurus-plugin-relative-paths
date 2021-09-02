@@ -48,6 +48,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ohkimur/docusaurus-plugin-relative-path.git"
-  }
+    "url": "git+https://github.com/ohkimur/docusaurus-plugin-relative-path.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ohkimur/docusaurus-plugin-relative-path/issues"
+  },
+  "homepage": "https://github.com/ohkimur/docusaurus-plugin-relative-path#readme"
 }
