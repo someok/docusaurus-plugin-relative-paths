@@ -1,4 +1,4 @@
-<h1 align="center" style="border-bottom: none;">🦖</h1>
+<div align="center" style="font-size: 60px">🦖</div>
 <h1 align="center" style="border-bottom: none;">Ducusaurus Plugin Relative Paths</h1>
 <h3 align="center">Convert absolute paths from build to relative paths.</h3>
 
