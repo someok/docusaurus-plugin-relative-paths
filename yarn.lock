@@ -24,9 +24,9 @@
     js-tokens "^4.0.0"
 
 "@docusaurus/types@^2.0.0-beta.5":
-  version "2.0.0-beta.7"
-  resolved "https://registry.yarnpkg.com/@docusaurus/types/-/types-2.0.0-beta.7.tgz#78ea662e6879ef9d819e505e7338a4f861f0b53f"
-  integrity sha512-p65Fy/8yhnhOvEcqrDtSqfepEmBOxo6mFtCVFS/zQJgXCH10pvbN4SjIFIFFHh8AvbAgv1Dp2TBel2mdwQO2yA==
+  version "2.0.0-beta.8"
+  resolved "https://registry.yarnpkg.com/@docusaurus/types/-/types-2.0.0-beta.8.tgz#0dd7e51ca403c9567eb18d985bb65c975ce15cbc"
+  integrity sha512-wEzyQvku2zNNp3ChPk1x5s7SvlFygTyuqL9dpwvzCsJhxqZ0JH+whellh2YtDQQO617npOM8l6MC1Yd6ePws2Q==
   dependencies:
     commander "^5.1.0"
     joi "^17.4.2"
