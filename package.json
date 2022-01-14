@@ -53,5 +53,6 @@
   "bugs": {
     "url": "https://github.com/ohkimur/docusaurus-plugin-relative-paths/issues"
   },
-  "homepage": "https://github.com/ohkimur/docusaurus-plugin-relative-paths#readme"
+  "homepage": "https://github.com/ohkimur/docusaurus-plugin-relative-paths#readme",
+  "packageManager": "yarn@3.1.1"
 }
