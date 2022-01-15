@@ -1,4 +1,4 @@
-import { Stats } from 'fs';
+import type { Stats } from 'fs';
 import { readFile, writeFile } from 'fs/promises';
 import { extname, relative, sep, posix } from 'path';
 import chalk from 'chalk';
