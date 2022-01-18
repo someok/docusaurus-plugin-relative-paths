@@ -2,7 +2,7 @@ import { dirname, join, relative } from 'path/posix';
 import type { FileHandler } from "../types";
 import { isDirectory } from "../utils";
 
-const htmlRegExp = /(href|src)="(?!(?:https?|ftp):\/\/)(\/[^"|#]+)"/g;
+const htmlRegExp = /(href|src)="(?!(?:https?|ftp):\/\/)(\/[^"|#]*)"/g;
 
 const handleHTML: FileHandler = (fileContent: string, filePath: string, baseUrl: string) => {
   const currentDirPath = dirname(filePath);
