@@ -3481,7 +3481,7 @@ __metadata:
     ansistyles: "*"
     archy: "*"
     cacache: "*"
-    chalk: "*"
+    chalk: "^4.1.2"
     chownr: "*"
     cli-columns: "*"
     cli-table3: "*"
