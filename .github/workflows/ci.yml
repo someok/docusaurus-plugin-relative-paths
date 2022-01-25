@@ -9,7 +9,7 @@ jobs:
     strategy:
       matrix:
         runs-on: [ubuntu-latest]
-        node-version: [16
+        node-version: [16]
 
     runs-on: ${{ matrix.runs-on }}
 
