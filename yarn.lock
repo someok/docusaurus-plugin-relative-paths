@@ -585,15 +585,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/fs-extra@npm:^9.0.13":
-  version: 9.0.13
-  resolution: "@types/fs-extra@npm:9.0.13"
-  dependencies:
-    "@types/node": "*"
-  checksum: add79e212acd5ac76b97b9045834e03a7996aef60a814185e0459088fd290519a3c1620865d588fa36c4498bf614210d2a703af5cf80aa1dbc125db78f6edac3
-  languageName: node
-  linkType: hard
-
 "@types/json-schema@npm:*, @types/json-schema@npm:^7.0.8":
   version: 7.0.9
   resolution: "@types/json-schema@npm:7.0.9"
@@ -1172,7 +1163,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:*, chalk@npm:^5.0.0":
+"chalk@npm:*":
   version: 5.0.0
   resolution: "chalk@npm:5.0.0"
   checksum: 6eba7c518b9aa5fe882ae6d14a1ffa58c418d72a3faa7f72af56641f1bbef51b645fca1d6e05d42357b7d3c846cd504c0b7b64d12309cdd07867e3b4411e0d01
@@ -1190,7 +1181,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^4.0.0, chalk@npm:^4.1.0":
+"chalk@npm:^4.0.0, chalk@npm:^4.1.0, chalk@npm:^4.1.2":
   version: 4.1.2
   resolution: "chalk@npm:4.1.2"
   dependencies:
@@ -1613,11 +1604,14 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "docusaurus-plugin-relative-paths@workspace:."
   dependencies:
+<<<<<<< HEAD
     "@docusaurus/types": ^2.0.0-beta.15
     "@types/fs-extra": ^9.0.13
+=======
+    "@docusaurus/types": ^2.0.0-beta.14
+>>>>>>> ed900d29c253864486b53a92c842db8016521396
     "@types/recursive-readdir": ^2.2.0
-    chalk: ^5.0.0
-    fs-extra: ^10.0.0
+    chalk: ^4.1.2
     recursive-readdir: ^2.2.2
     rimraf: ^3.0.2
     semantic-release: ^19.0.2
