@@ -34,7 +34,7 @@
   "author": "Daniel Costrasel (ohkimur)",
   "license": "MIT",
   "dependencies": {
-    "@docusaurus/types": "^2.0.0-beta.14",
+    "@docusaurus/types": "^2.0.0-beta.15",
     "@types/recursive-readdir": "^2.2.0",
     "chalk": "^4.1.2",
     "recursive-readdir": "^2.2.2"
@@ -52,5 +52,8 @@
     "url": "https://github.com/ohkimur/docusaurus-plugin-relative-paths/issues"
   },
   "homepage": "https://github.com/ohkimur/docusaurus-plugin-relative-paths#readme",
-  "packageManager": "yarn@3.1.1"
+  "packageManager": "yarn@3.1.1",
+  "resolutions": {
+    "npm/chalk": "^4.1.2"
+  }
 }
