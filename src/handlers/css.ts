@@ -1,6 +1,7 @@
-import { dirname, join, relative } from "path/posix";
+import path from 'path';
 import type { FileHandler } from "../types";
 
+const { dirname, join, relative } = path.posix;
 const cssRegExp = /url\(['"]?(?!(?:https?|ftp):\/\/)(\/[^'")]+)['"]?\)/g;
 
 const handleCSS: FileHandler = (fileContent: string, filePath: string, baseUrl: string) => {

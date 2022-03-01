@@ -1,6 +1,8 @@
-import { dirname, join, relative } from 'path/posix';
+import path from 'path';
 import type { FileHandler } from "../types";
 import { isDirectory } from "../utils";
+
+const { dirname, join, relative } = path.posix;
 
 const htmlRegExp = /(href|src)="(?!(?:https?|ftp):\/\/)(\/[^"|#]*)"/g;
 

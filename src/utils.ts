@@ -1,3 +1,5 @@
-import { extname } from 'path/posix';
+import path from 'path';
+
+const { extname } = path.posix;
 
 export const isDirectory = (dirPath: string) => extname(dirPath) === '';
